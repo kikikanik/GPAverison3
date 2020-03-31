@@ -94,7 +94,7 @@ public class version3 {
 				gradePoints = numberConversion*creditHours;
 				totalGradePoints = gradePoints + totalGradePoints;
 				GPA = totalGradePoints / totalCreditHours;
-				if (GPA == 4.3) {
+				if (GPA > 4.0) {
 					GPA = 4.0;
 				}
 				transcript = transcript + "\n" + courseName + "\t" + creditHours + "\t " + letterGrade + "\t"+ gradePoints + "\n";
